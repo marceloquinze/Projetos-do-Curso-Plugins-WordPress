@@ -1,0 +1,76 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: MV Testimonials v1.0.0\n"
+"POT-Creation-Date: 2021-06-24 15:45-0300\n"
+"PO-Revision-Date: \n"
+"Language-Team: Your Team <translations@example.com>\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.0.6\n"
+"Last-Translator: Marcelo Vieira <marceloquinze@gmail.com>\n"
+"Language: pt_BR\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: post-types/class.mv-testimonials-cpt.php:18
+#: post-types/class.mv-testimonials-cpt.php:22
+msgid "Testimonial"
+msgstr "Depoimento"
+
+#: post-types/class.mv-testimonials-cpt.php:19
+#: post-types/class.mv-testimonials-cpt.php:21
+msgid "Testimonials"
+msgstr "Depoimentos"
+
+#: post-types/class.mv-testimonials-cpt.php:45
+msgid "Testimonials Options"
+msgstr "Opções de Depoimentos"
+
+#: views/mv-testimonials_metabox.php:10
+msgid "User occupation"
+msgstr "Ocupação do usuário"
+
+#: views/mv-testimonials_metabox.php:24
+msgid "User company"
+msgstr "Nome da Empresa do Usuário"
+
+#: views/mv-testimonials_metabox.php:38
+msgid "User URL"
+msgstr "URL do Usuário"
+
+#: views/mv-testimonials_widget.php:48
+msgid "Show More Testimonials"
+msgstr "Mostrar mais depoimentos"
+
+#: widgets/class.mv-testimonials-widget.php:6
+msgid "Your most beloved testimonials"
+msgstr "Seus depoimentos mais amados"
+
+#: widgets/class.mv-testimonials-widget.php:46
+msgid "Title"
+msgstr "Título"
+
+#: widgets/class.mv-testimonials-widget.php:51
+msgid "Number of testimonials to show"
+msgstr "Número de depoimentos para mostrar"
+
+#: widgets/class.mv-testimonials-widget.php:57
+msgid "Display user image?"
+msgstr "Mostrar imagem do usuário?"
+
+#: widgets/class.mv-testimonials-widget.php:62
+msgid "Display occupation?"
+msgstr "Mostrar ocupação?"
+
+#: widgets/class.mv-testimonials-widget.php:67
+msgid "Display company?"
+msgstr "Mostrar nome da empresa?"

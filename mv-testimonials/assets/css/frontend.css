@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'icon-quote-right';
+    src: url('../font/icon-quote-right.eot?90144078');
+    src: url('../font/icon-quote-right.eot?90144078#iefix') format('embedded-opentype'),
+         url('../font/icon-quote-right.woff?90144078') format('woff'),
+         url('../font/icon-quote-right.ttf?90144078') format('truetype'),
+         url('../font/icon-quote-right.svg?90144078#icon-quote-right') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+.widget_mv-testimonials .content p:last-child::after{
+    content: '\f10e';
+    position: absolute;
+    right: 25px; 
+	font-weight: 900;
+	font-family: "icon-quote-right";
+}
+.widget_mv-testimonials h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.widget_mv-testimonials img{
+    border-radius: 50%;
+    float: left;
+    height: 70px;
+    width: 70px;
+    margin: 0 15px 5px 0;
+}
+.widget_mv-testimonials .content{
+    font-size: 15px;
+    font-style: italic;
+    position: relative;
+    background-color: #d6d60424;
+    padding: 25px 50px 25px 25px; 
+    margin-bottom: 10px;
+}
+.widget_mv-testimonials .content p{
+    margin: 10px;
+}
+.widget_mv-testimonials .content p:last-child{
+    margin: 0;
+}
+
+.widget_mv-testimonials .meta{
+    text-align: right;
+    font-size: 15px;
+}
+
+/* Archive and Single Page */
+
+.mv-testimonials-archive,
+.mv-testimonials-single{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 6vw;
+}
+.mv-testimonials-archive .page-header,
+.mv-testimonials-single .page-header{
+    margin-bottom: 40px;
+}
+.mv-testimonials-archive h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.mv-testimonials-archive .testimonial-item,
+.mv-testimonials-single .testimonial-item{
+    padding: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-style: italic;
+    position: relative;
+    background-color: #d6d60424;
+    display: grid;
+}
+.mv-testimonials-archive .content,
+.mv-testimonials-single .content{
+    position: relative;
+}
+.mv-testimonials-archive .content img,
+.mv-testimonials-single .content img{
+    float: left;
+    margin: 0 15px 5px 0;
+}
+.mv-testimonials-archive .meta,
+.mv-testimonials-single .meta{
+    text-align: right;
+    font-size: 18px;
+    margin: 20px 0 35px;
+}
+.mv-testimonials-archive .content p:last-child::after,
+.mv-testimonials-single .content p:last-child::after{
+    content: '\f10e';
+    position: absolute;
+    right: 25px; 
+	font-weight: 900;
+	font-family: "icon-quote-right";
+}
