@@ -1,0 +1,44 @@
+.single-mv-translations .meta{
+    margin-bottom: 25px;
+}
+.single-mv-translations .meta span{
+    display: block;
+}
+.single-mv-translations .meta span a{
+    text-decoration: underline;
+    margin: 0 5px 0 0;
+}
+
+.single-mv-translations .translation-item .wp-block-group{
+    margin-bottom: 30px;
+}
+
+.single-mv-translations .translation-item .wp-block-quote {
+    border-left: 4px solid #000 !important;
+    padding: 20px !important;
+    background-color: #f5f5f5;
+}
+
+.single-mv-translations .video iframe{
+    width: 560px !important;
+    height: 350px !important;
+}
+
+.has-transliteration:empty {
+    display: none;
+}
+
+.has-transliteration p {
+    font-style: italic;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.has-transliteration p:nth-child(3n + 1) {
+    font-weight: bold;
+    margin-left: 0;
+}
+
+.has-transliteration p:nth-child(3n) {
+    color: red;
+}

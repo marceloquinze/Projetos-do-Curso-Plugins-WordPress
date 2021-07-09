@@ -1,0 +1,223 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: MV Translations v1.0.0\n"
+"POT-Creation-Date: 2021-07-09 12:21-0300\n"
+"PO-Revision-Date: \n"
+"Language-Team: Your Team <translations@example.com>\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.0.6\n"
+"Last-Translator: Marcelo Vieira <marceloquinze@gmail.com>\n"
+"Language: pt_BR\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: functions/functions.php:22
+msgid "Required form field is missing"
+msgstr "O campo de formulário obrigatório está faltando"
+
+#: functions/functions.php:26
+msgid "Username too short. At least 6 characters is required"
+msgstr "O nome de usuário é muito curto. Deve ter ao menos 4 caracteres"
+
+#: functions/functions.php:30
+msgid "Invalid credentials"
+msgstr "Credenciais inválidas"
+
+#: functions/functions.php:34
+msgid "The username you entered is not valid!"
+msgstr "O nome de usuário inserido não é válido"
+
+#: functions/functions.php:38
+msgid "Email is not valid"
+msgstr "Esse email não é válido"
+
+#: functions/functions.php:42
+msgid "Email already exists"
+msgstr "O email já existe"
+
+#: functions/functions.php:46
+msgid "Password length must be greater than 5"
+msgstr "Senha deve conter ao menos 5 caracteres"
+
+#: functions/functions.php:73
+msgid "Create your account"
+msgstr "Criar uma conta"
+
+#: functions/functions.php:75
+msgid "Username"
+msgstr "Nome de usuário"
+
+#: functions/functions.php:77
+msgid "First Name"
+msgstr "Primeiro  Nome"
+
+#: functions/functions.php:79
+msgid "Last Name"
+msgstr "Último Nome"
+
+#: functions/functions.php:81
+msgid "Email address"
+msgstr "Endereço de e-mail"
+
+#: functions/functions.php:83
+msgid "Password"
+msgstr "Senha"
+
+#: functions/functions.php:85
+msgid "Sign Up"
+msgstr "Registre-se"
+
+#: functions/functions.php:90
+msgid "Or login"
+msgstr "Ou faça login"
+
+#: mv-translations.php:114
+msgid "Submit Translation"
+msgstr "Enviar tradução"
+
+#: mv-translations.php:129
+msgid "Edit Translation"
+msgstr "Editar tradução"
+
+#: post-types/class.mv-translations-cpt.php:22
+#: post-types/class.mv-translations-cpt.php:26
+msgid "Translation"
+msgstr "Tradução"
+
+#: post-types/class.mv-translations-cpt.php:23
+#: post-types/class.mv-translations-cpt.php:25
+msgid "Translations"
+msgstr "Traduções"
+
+#: post-types/class.mv-translations-cpt.php:53
+msgid "Singers"
+msgstr "Cantores"
+
+#: post-types/class.mv-translations-cpt.php:54
+#: views/mv-translations_edit_shortcode.php:93
+#: views/mv-translations_shortcode.php:77
+#: views/templates/single-mv-translations.php:32
+msgid "Singer"
+msgstr "Cantor"
+
+#: post-types/class.mv-translations-cpt.php:78
+msgid "Translations Options"
+msgstr "Opções de tradução"
+
+#: views/mv-translations_edit_shortcode.php:25
+#: views/mv-translations_shortcode.php:25
+msgid "Please, enter a title"
+msgstr "Por favor, insira um título"
+
+#: views/mv-translations_edit_shortcode.php:30
+#: views/mv-translations_shortcode.php:30
+msgid "Please, enter some content"
+msgstr "Por favor, insira algum conteúdo."
+
+#: views/mv-translations_edit_shortcode.php:35
+#: views/mv-translations_shortcode.php:35
+msgid "Please, enter some singer"
+msgstr "Por favor, insira algum cantor"
+
+#: views/mv-translations_edit_shortcode.php:76
+msgid "Edit translation"
+msgstr "Editar tradução"
+
+#: views/mv-translations_edit_shortcode.php:90
+#: views/mv-translations_shortcode.php:74
+#: views/mv-translations_shortcode.php:132
+msgid "Title"
+msgstr "Título"
+
+#: views/mv-translations_edit_shortcode.php:103
+#: views/mv-translations_metabox.php:22 views/mv-translations_shortcode.php:91
+msgid "Has transliteration?"
+msgstr "Possui transliteração?"
+
+#: views/mv-translations_edit_shortcode.php:105
+#: views/mv-translations_metabox.php:26 views/mv-translations_shortcode.php:93
+#: views/mv-translations_shortcode.php:144
+msgid "Yes"
+msgstr "Sim"
+
+#: views/mv-translations_edit_shortcode.php:106
+#: views/mv-translations_metabox.php:27 views/mv-translations_shortcode.php:94
+#: views/mv-translations_shortcode.php:144
+msgid "No"
+msgstr "Não"
+
+#: views/mv-translations_edit_shortcode.php:108
+#: views/mv-translations_metabox.php:33 views/mv-translations_shortcode.php:96
+msgid "Video URL"
+msgstr "URL do vídeo"
+
+#: views/mv-translations_edit_shortcode.php:116
+#: views/mv-translations_shortcode.php:104
+msgid "Submit"
+msgstr "Enviar"
+
+#: views/mv-translations_edit_shortcode.php:119
+msgid "Back to translations list"
+msgstr "Voltar para a lista de traduções"
+
+#: views/mv-translations_shortcode.php:60
+msgid "Submit new translation"
+msgstr "Enviar nova tradução"
+
+#: views/mv-translations_shortcode.php:128
+msgid "Your Translations"
+msgstr "Suas traduções"
+
+#: views/mv-translations_shortcode.php:131
+msgid "Date"
+msgstr "Data"
+
+#: views/mv-translations_shortcode.php:133
+msgid "Transliteration"
+msgstr "Transliteração"
+
+#: views/mv-translations_shortcode.php:134
+msgid "Edit?"
+msgstr "Editar?"
+
+#: views/mv-translations_shortcode.php:135
+msgid "Delete?"
+msgstr "Apagar?"
+
+#: views/mv-translations_shortcode.php:136
+msgid "Status"
+msgstr "Status"
+
+#: views/mv-translations_shortcode.php:146
+msgid "Edit"
+msgstr "Editar"
+
+#: views/mv-translations_shortcode.php:147
+msgid "Delete"
+msgstr "Apagar"
+
+#: views/mv-translations_shortcode.php:148
+msgid "Published"
+msgstr "Publicado"
+
+#: views/mv-translations_shortcode.php:148
+msgid "Pending"
+msgstr "Pendente"
+
+#: views/templates/single-mv-translations.php:37
+msgid "Author"
+msgstr "Autor"
+
+#: views/templates/single-mv-translations.php:40
+msgid "Published on"
+msgstr "Publicado em"
